@@ -56,5 +56,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void rightButtonClicked(View view) {
+        if(num2 > num1){
+            //sucess
+            points += 10 ;
+        }else{
+            points -= 10;
+        }
     }
 }
